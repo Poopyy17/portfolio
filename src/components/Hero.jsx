@@ -40,6 +40,7 @@ const Hero = () => {
             <ButtonPrimary
               label="Download Resume"
               href={resume}
+              target="_blank"
               icon="download"
             />
 
