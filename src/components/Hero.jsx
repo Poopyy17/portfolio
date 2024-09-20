@@ -5,6 +5,7 @@
 
 import pic from '../assets/pic.png';
 import pic1 from '../assets/pic1.jpg';
+import resume from '../../public/Boac_James_Resume.pdf';
 import { ButtonPrimary, ButtonOutline } from './Button';
 
 const Hero = () => {
@@ -36,7 +37,11 @@ const Hero = () => {
           </h2>
 
           <div className="flex items-center gap-3">
-            <ButtonPrimary label="Download Resume" icon="download" />
+            <ButtonPrimary
+              label="Download Resume"
+              href={resume}
+              icon="download"
+            />
 
             <ButtonOutline
               href="#about"
