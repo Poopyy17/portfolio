@@ -5,7 +5,7 @@
 
 import pic from '../assets/pic.png';
 import pic1 from '../assets/pic1.jpg';
-import resume from '../../public/Boac_James_Resume.pdf';
+import resume from '../assets/Resume_2025.pdf';
 import { ButtonPrimary, ButtonOutline } from './Button';
 
 const Hero = () => {

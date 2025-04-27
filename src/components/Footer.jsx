@@ -4,7 +4,7 @@
  */
 
 import { ButtonPrimary } from './Button';
-import pic from '../../public/teenager.png';
+import pic from '../assets/teenager.png';
 
 const sitemap = [
   {

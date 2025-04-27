@@ -13,6 +13,18 @@ import react from '../assets/react.svg';
 import tailwind from '../assets/tailwindcss.svg';
 import photoshop from '../assets/photoshop.svg';
 import illustrator from '../assets/illustrator.svg';
+import digitalocean from '../assets/digitalocean.png';
+import jwt from '../assets/jwt.png';
+import nodecache from '../assets/nodecache.png';
+import oAuth from '../assets/oAuth.png';
+import postgresql from '../assets/postgresql.png';
+import shadcn from '../assets/shadcn.png';
+import tanstack from '../assets/tanstack.png';
+import vite from '../assets/vite.png';
+import github from '../assets/github.png';
+import vercel from '../assets/vercel.png';
+import neondb from '../assets/neondb.png';
+import eventemitter from '../assets/nodejs.svg';
 
 const skillItem = [
   {
@@ -64,6 +76,66 @@ const skillItem = [
     imgSrc: illustrator,
     label: 'Illustrator',
     desc: 'Design tool',
+  },
+  {
+    imgSrc: digitalocean,
+    label: 'Digital Ocean',
+    desc: 'DevOps/Cloud',
+  },
+  {
+    imgSrc: github,
+    label: 'Github',
+    desc: 'Version Control',
+  },
+  {
+    imgSrc: jwt,
+    label: 'JWT',
+    desc: 'Authentication',
+  },
+  {
+    imgSrc: nodecache,
+    label: 'Node Cache',
+    desc: 'Backend Caching',
+  },
+  {
+    imgSrc: oAuth,
+    label: 'oAuth 2.0',
+    desc: 'Authentication',
+  },
+  {
+    imgSrc: postgresql,
+    label: 'PostgreSQL',
+    desc: 'Database',
+  },
+  {
+    imgSrc: shadcn,
+    label: 'Shadcn UI',
+    desc: 'User Interface',
+  },
+  {
+    imgSrc: tanstack,
+    label: 'Tanstack Query/Table',
+    desc: 'Data Management',
+  },
+  {
+    imgSrc: vite,
+    label: 'Vite',
+    desc: 'Development Tool',
+  },
+  {
+    imgSrc: vercel,
+    label: 'Vercel',
+    desc: 'DevOps/Cloud',
+  },
+  {
+    imgSrc: neondb,
+    label: 'Neon DB',
+    desc: 'Database',
+  },
+  {
+    imgSrc: eventemitter,
+    label: 'Event Emitter 2',
+    desc: 'Scheduled Events',
   },
 ];
 
